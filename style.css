@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "M plus 1p";
+}
+
+.container {
+  max-width: 1146px;
+  margin: auto;
+}
+
+.header-wrapper {
+  display: flex;
+  padding: 53px 0px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header-wrapper-logo {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 43px;
+  letter-spacing: 2px;
+  color: #0f044c;
+}
+.header-wrapper-ul ul {
+  width: 462px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-wrapper-ul ul li {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #080800;
+}
+
+a {
+  text-decoration: none;
+  color: #080800;
+}
+
+.header-wrapper-tel a::before {
+  display: inline-block;
+  margin-right: 18px;
+  vertical-align: middle;
+  content: "";
+  width: 18px;
+  height: 28.8px;
+  background-image: url(./images/tel.svg.svg);
+}
+
+.human {
+  padding-top: 126px;
+  padding-bottom: 115px;
+  background-image: url(./images/fon-human.png);
+  background-size:cover;
+}
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 80px;
+  color: #fcfcfc;
+}
+.human p {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 143.9%;
+  letter-spacing: 2px;
+  color: #f4f4ed;
+}
+
+.content {
+  padding-top: 72px;
+  padding-bottom: 66px;
+}
+h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a22f32;
+  margin-bottom: 12px;
+}
+.remember {
+  padding-bottom: 60px;
+}
+.remember p {
+  font-family: "M plus 1p";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 40px;
+  color: #30233d;
+  max-width: 870px;
+}
+.blok {
+  display: flex;
+  justify-content: space-between;
+}
+.blok-item {
+  max-width: 30.19197207678883%;
+  border: 1px solid rgba(246, 16, 103, 1);
+  padding: 39px 36px 64px 36px;
+}
+
+.html {
+  display: block;
+  width: 72px;
+  height: 72px;
+  background-image: url(./images/html.svg.svg);
+  margin-bottom: 33px;
+}
+.css {
+  display: block;
+  width: 72px;
+  height: 72px;
+  background-image: url(./images/css.svg.svg);
+  margin-bottom: 33px;
+}
+.bootstrap {
+  display: block;
+  width: 72px;
+  height: 72px;
+  background-image: url(./images/Bootstrap.svg.svg);
+  margin-bottom: 33px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 40px;
+  color: #30233d;
+  margin-bottom: 13px;
+}
+
+.blok-item p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2px;
+  line-height: 26px;
+  color: #30233d;
+}
+footer {
+  background-color: black;
+  padding-top: 76px;
+  padding-bottom: 80px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.footer-code a {
+    display: block;
+    width: 111px;
+    height: 42px;
+}
+.inst {
+  display:inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 19px;
+}
+.vk {
+    display:inline-block;
+  width: 40px;
+  height: 40px;
+}
+.protected p {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.7px;
+  line-height: 19px;
+}
